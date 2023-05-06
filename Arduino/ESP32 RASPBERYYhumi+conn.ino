@@ -12,17 +12,17 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi
-const char* ssid = "Galaxys6";                 // Your personal network SSID
-const char* wifi_password = "Mohamed0612"; // Your personal network password
+const char* ssid = "";                 // Your personal network SSID
+const char* wifi_password = ""; // Your personal network password
 
 // MQTT
-const char* mqtt_server = "192.168.43.120";  // IP of the MQTT broker
+const char* mqtt_server = "";  // IP of the MQTT broker
 const char* humidity_topic = "home/livingroom/humidity";
 const char* temperature_topic = "home/livingroom/temperature";
 //const char* gaz_topic = "home/livingroom/gaz";
-const char* mqtt_username = "bayoudh"; // MQTT username
-const char* mqtt_password = "bayoudh"; // MQTT password
-const char* clientID = "client_livingroom"; // MQTT client ID
+const char* mqtt_username = ""; // MQTT username
+const char* mqtt_password = ""; // MQTT password
+const char* clientID = ""; // MQTT client ID
 
 // Initialise the WiFi and MQTT Client objects
 WiFiClient wifiClient;
